@@ -1,0 +1,29 @@
+  @import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Courgette&family=Lemon&display=swap');
+
+h1 {
+    font-family: fantasy;
+    color: blueviolet;
+}
+
+ul {
+    font-family: monospace;
+    color:#ce2d4f ;
+}
+
+th {
+    font-family: 'Courgette', cursive;
+}
+
+.navbar-nav {
+    background-color: aquamarine;
+    font-family: 'Lemon';
+}
+
+.navbar-brand{
+    background-color: palevioletred;
+    font-family: 'Lemon';
+}
+
+.container-fluid{
+    background-color: aquamarine;
+}

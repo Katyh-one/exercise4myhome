@@ -11,23 +11,64 @@
     <div class="container-fluid p-5 my-5 border">
     <header><h1 class = "display-2">About Me</h1></header>
 </div>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container-fluid">
-            <span class="navbar-brand mb-0 h1">Menu</span>
-        <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
+<h1>Menu</h1>
+    <nav>
+        <div>
+        <!-- class="navbar navbar-expand-lg bg-body-tertiary " -->
+                
+                <ul class="nav nav-pills nav-fill">
                 <li class="nav-item"><a class="nav-link active" aria-current="page" href="AboutMe.html">About Me</a></li>
-                <li class="nav-item"><a class="nav-link" href="Favourites.html">Favourites</a></li>
-                <li class="nav-item"><a class="nav-link" href="Clothing.html">Clothing</a></li>
-                <li class="nav-item"><a class="nav-link" href="Events.html">Events</a></li>
-                <li class="nav-item"><a class="nav-link href="LearningToCode.html">Learning To Code</a></li>
+                <li class="nav-item"><a class="nav-item" href="Favourites.html">Favourites</a></li>
+                <li class="nav-item"><a class="nav-item" href="Clothing.html">Clothing</a></li>
+                <li class="nav-item"><a class="nav-item" href="Events.html">Events</a></li>
+                <li class="nav-item"><a class="nav-item" href="LearningToCode.html">Learning To Code</a></li>
             </ul>
         </div>    
         </div>
     </nav>
-    <div class="container mt-5">
+    <div class="container-fluid">
         <div class="row">
-          <div class="col">
+          <!-- <div class="col"> -->
+            <div id="carouselExampleCaptions" class="carousel slide" >
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="image/katy.jpg" class="d-block w-50"   alt="a women sitting down with a cup in her hand in a field">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Me at my favourite place - Glastonbury</h5>
+                      <p class="carousel">I love going to festivals!!</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="image/katy_bee.jpg" class="d-block w-100" alt="a woman stood by a statue of a bee">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>I live oop North!</h5>
+                      <p class="carousel">Having studied at Leeds Uni I moved from Dorset to Leeds many years ago!</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="image/jewellery.jpg" class="d-block w-50" alt="a woman with jewellery">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>I love to all things colourful</h5>
+                      <p class="carousel">Nothing I love more than lots of colours!!</p>
+                    </div>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+        <div class="row">
             <section>
                 <h2>Who am I</h2>
                 <img src="image/taylor.jpeg" class="rounded float-start img-fluid" alt="Taylor swift in a black dress">

@@ -4,6 +4,9 @@ h1 {
     font-family: fantasy;
     color: blueviolet;
 }
+h2, h3{
+    text-align: center;
+}
 
 h5 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;

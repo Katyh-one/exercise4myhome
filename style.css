@@ -1,8 +1,8 @@
-  @import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Courgette&family=Lemon&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Bebas+Neue&family=Bungee+Spice&family=Courgette&family=Lemon&display=swap');
 
 h1 {
     font-family: fantasy;
-    color: blueviolet;
+    color: #f18a9b;
 }
 h2, h3{
     text-align: center;
@@ -11,13 +11,19 @@ h2, h3{
 h5 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: bold;
-    color:darkmagenta;
-    background-color: aqua;
+    color:#f18a9b;
+    background-color: #ffff9d;
+}
+
+a{
+    color: #8bffff; 
+    font-weight: bold;
 }
 
 ul {
-    font-family: monospace;
-    color:#ce2d4f ;
+    font-family: "Archivo Black", sans-serif;
+    color:#ffff9d ;
+    font-size: large;
 }
 
 th {
@@ -25,26 +31,32 @@ th {
 }
 
 .navbar-nav {
-    background-color: aquamarine;
+    background-color: #a26ea1;
     font-family: 'Lemon';
 }
 
 .navbar-brand{
-    background-color: palevioletred;
+    background-color: #ffff9d;
     font-family: 'Lemon';
 }
 
 .container-fluid{
-    background-color: aquamarine;
+    background-color: #a26ea1;
 }
 
 .carousel{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: aquamarine;
-    background-color: darkmagenta;
+    background-color: #ffb480;
 }
 
 .carousel-inner img {
 
     margin: 0 auto;
+}
+
+.card{
+
+    background-color:#82acff;
+
 }
